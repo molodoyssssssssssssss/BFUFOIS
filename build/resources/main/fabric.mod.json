@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "bfufois",
+  "version": "1.0-1.21.8",
+  "name": "BFUFOIS",
+  "description": "BFUFOIS - Bypass Force Unicode Font Odd Interface Scale. Is a mod, that bypassing odd interface scale with force unicode font. Yes is looks awful, but i like this.",
+  "authors": [
+    "molodoyss"
+  ],
+  "contact": {
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/bfufois/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "org.molodoyss.bfufois.client.BfufoisClient"
+    ],
+    "main": [
+      "org.molodoyss.bfufois.Bfufois"
+    ]
+  },
+  "mixins": [
+    "bfufois.mixins.json",
+    {
+      "config": "bfufois.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "minecraft": "1.21.8"
+  }
+}
