@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "bfufois",
-  "version": "${version}",
+  "version": "1.0-26.2",
   "name": "BFUFOIS",
   "description": "BFUFOIS - Bypass Force Unicode Font Odd Interface Scale. Is a mod, that bypassing odd interface scale with force unicode font. Yes is looks awful, but i like this.",
   "authors": [
@@ -29,7 +29,7 @@
     }
   ],
   "depends": {
-    "fabricloader": ">=${loader_version}",
+    "fabricloader": ">=0.19.3",
     "minecraft": [
       ">=26.1"
     ]
